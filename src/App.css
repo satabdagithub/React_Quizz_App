@@ -1,0 +1,62 @@
+body {
+  background-color: #07eafaec;
+  color: #645555;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.app-title {
+  color: #ffffff;
+  margin-top: 2rem;
+  padding-bottom: 50px;
+  font-family:'Times New Roman', Times, serif;
+  width: 205px;
+  height: 50px;
+  background-color: rgba(249, 19, 19, 0.93);
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+
+.ownClass{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.btn{
+  background-color: rgba(241, 243, 253, 0.844);
+  color: black;
+}
+
+.refresh-button:hover{
+  background-color: rgba(31, 61, 210, 0.844);
+  color: rgb(13, 13, 14);
+}
+
+
+@media (max-width: 767px) {
+  .app-title {
+    font-size: 2rem; /* Adjust font size for mobile */
+    margin-bottom: 15px;
+  }
+
+  .quiz-container {
+    padding: 20px; /* Add some padding on smaller screens */
+  }
+
+  /* Center the content in smaller screens */
+  .quiz-content {
+    width: 100%;
+    padding: 15px;
+  }
+
+  /* Adjust button size in smaller screens */
+  .quiz-content button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
